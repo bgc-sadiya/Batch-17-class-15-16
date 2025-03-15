@@ -52,3 +52,59 @@
     color: antiquewhite;
     text-decoration: none;
 }
+/*Device responsive*/
+@media screen and (max-width: 1100px) {
+    .header{
+        color: red;
+    }
+}
+@media screen and (max-width : 800px) {
+.header{
+    height: 250px;
+}    
+}
+@media screen and (max-width : 700px) {
+.header{
+    height: 200px;
+}    
+}
+@media screen and (max-width : 1200px) {
+    .project-item{
+        width: 32%;
+    }   
+}
+@media screen and (max-width : 750px) {
+    .project-item {
+        width: 31.5%;
+    }    
+}
+/*@media screen and (max-width : 545px) {
+.project-item{
+    width: 31%;
+}    
+}
+*/
+@media screen and (max-width : 700px) {
+    .project-item{
+        width: 48.5%;
+    }
+}
+@media screen and (max-width : 666px) {
+    .project-item{
+        width: 48%;
+    }
+}
+@media screen and (max-width : 500px) {
+    .project-item{
+        width: 99.5%;
+    }
+}
+@media screen and (max-width : 300px) {
+    .project-item{
+        width: 100%;
+    }
+}
+    
+    
+    
+    
